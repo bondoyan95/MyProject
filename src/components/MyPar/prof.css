@@ -1,0 +1,77 @@
+#professions-list {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     overflow-y: auto; /* Enable scrolling when content exceeds the container height */
+     background-color: #ccc;
+    
+  }
+  
+  #profession-section {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+  }
+  
+  #profession-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #profession-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #profession-list li {
+    margin-bottom: 5px;
+  }
+  
+  .profession-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profession-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .profession-button.selected {
+    background-color: #ccc;
+  }
+  
+  #profession-details {
+    margin-top: 20px;
+  }
+  
+  #profession-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #profession-details h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #profession-details p {
+    margin-bottom: 10px;
+  }
+  
+  #profession-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #profession-details li {
+    margin-bottom: 5px;
+  }
+  
+  
